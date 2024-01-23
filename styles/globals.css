@@ -1,0 +1,28 @@
+:root {
+  --background-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+
+  --border-rgb: 158, 184, 202;
+
+  --primary-color-rgb: 3, 90, 149;
+  --primary-color-text-rgb: 255, 255, 255;
+  --secondary-color-rgb: 58, 174, 182;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb))
+}

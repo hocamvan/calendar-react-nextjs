@@ -1,0 +1,18 @@
+.root {
+  position: absolute;
+  border: rgb(var(--border-rgb)) solid 1px;
+  background-color: rgb(var(--primary-color-rgb));
+  color: rgb(var(--primary-color-text-rgb));
+  font-size: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+}
+
+.root:hover {
+  background-color: rgb(var(--secondary-color-rgb));
+  min-height: 20px;
+  z-index: 2;
+}
